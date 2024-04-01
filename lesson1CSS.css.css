@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*Колір фону*/
+body{
+  background-color: #bab47f; /*color picker(через Google) Вибір кольору*/
+}
+/*3 пункт(заміна кольору по атрибутам)*/
+p{
+  color:red;
+  }
+  /*4 пункт(присвоєнна класу)*/
+.Присвоєнийклас{
+  color:blue;
+}
+  /*Відцентровка та стилі*/
+header{
+  text-align: center;
+  font-family: 'Lobster', sans-serif;  /*https://fonts.google.com Вибір стилю шрифта*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #082f6e;
+  height: 15vh;
+  font-size: 30px;
+  text-decoration: underline;
+}
+main{
+  font-size: 20px;
+}
+footer a{
+  text-decoration: none;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #6020f5;
+}
